@@ -1,9 +1,16 @@
 :root {
     --max-width: 1024px;
+    --back-color: #686763;
+    --font-color: #dfdfdf;
+    --chhead-color: #ffffff;
+    --font-size: 14pt;
 }
 
 body {
     max-width: var(--max-width);
+    background-color: var(--back-color);
+    color: var(--font-color);
+    font-size: var(--font-size);
 }
 
 #myfoto {
@@ -15,10 +22,24 @@ body {
     font-weight: bold;
     font-size: 36pt;
     text-align: center;
+    color: var(--chhead-color);
 }
 
 #fio {
     font-weight: bolder;
     font-size: 24pt;
-    padding-top: 200px;
+    padding-top: 110px;
+    color: var(--chhead-color);
+}
+
+.link {
+    font-size: 16pt;
+    color: var(--font-color);
+}
+.chhead {
+    color: var(--chhead-color);
+    margin-bottom: -15px;
+}
+.list {
+    margin-top: -15px;
 }
